@@ -28,9 +28,10 @@
             </manifest>
           <archive>
             <manifestEntries>              
-              <Implementation-Build>${git_commit}</Implementation-Build>
-              <Build-Time>${build_time}</Build-Time>
-              <Version>${build_id}</Version>
+              <Git-Repo>${git_repo}</Git-Repo>
+              <Git-Branch>${git_branch}</Git-Branch>
+              <Git-Hash>${git_commit}</Git-Hash>
+              <Build-Number>${build_num}</Build-Number>
             </manifestEntries>          
           </archive>
         </configuration>
