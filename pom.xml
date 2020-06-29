@@ -54,6 +54,7 @@
               <Git-Branch>${git_branch}</Git-Branch>
               <Git-Hash>${git_commit}</Git-Hash>
               <Build-Number>${build_num}</Build-Number>
+              <SCM-Revision>${buildNumber}</SCM-Revision>
             </manifestEntries>          
           </archive>
         </configuration>
